@@ -1,0 +1,29 @@
+body {
+ background-image: url(ocean.jpeg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+
+#heading {
+   text-align: center;
+}
+
+table {
+   border: 3px solid;
+   border-radius: 5px;
+   width: 70%;
+   margin-left: 110px;
+   cursor: pointer;
+}
+
+th,
+td {
+   border-right: 2px solid rgb(32, 31, 31);
+   background-color: rgb(183, 207, 199);
+   padding: 5px 5px;
+}
+
+th,
+td:hover {
+   background-color: rgba(116, 146, 173, 0.747);
+}
